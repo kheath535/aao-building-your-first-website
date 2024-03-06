@@ -1,0 +1,32 @@
+body {
+    background-color: #354e64;
+    color: #dbedff;
+    font-family: "Segoe UI", "Liberation Sans", "sans serif";
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header h2 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #52718d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    font-size: 22px;
+}
+
+nav a:visited {
+    color: #dbedff;
+}
