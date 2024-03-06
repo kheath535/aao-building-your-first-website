@@ -29,7 +29,8 @@
 
         <h1>What games have you been playing?</h1>
 
-        <form method="get">
+        <!--Note this form doesn't actually send data anywhere yet, but I wanted to make a nice submission page anyway-->
+        <form method="post" action="form_submitted.html">
             <fieldset>
 
                 <label for="gamer">Do you consider yourself a "gamer"?</label>
@@ -44,7 +45,7 @@
                 <label for="gameplans">What games are you looking forward to playing this year (old or new)?</label>
                 <textarea id="gameplans" name="gameplans"></textarea>
 
-                <input type="button" value="Submit" id="submit-button">
+                <button id="submit-button">Submit</button>
 
             </fieldset>
         </form>
