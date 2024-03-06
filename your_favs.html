@@ -30,29 +30,35 @@
         <h1>What games have you been playing?</h1>
 
         <!--Note this form doesn't actually send data anywhere yet, but I wanted to make a nice submission page anyway-->
-        <form method="post" action="form_submitted.html">
-            <fieldset>
+        <div class="content-container">
 
-                <label for="gamer">Do you consider yourself a "gamer"?</label>
-                <input type="checkbox" name="gamer">
+            <form method="post" action="form_submitted.html">
 
-                <label for="GOTY">What's the best game you've played this year?</label>
-                <input type="text" name="GOTY">
+                <fieldset>
 
-                <label for="GOAT">What's your favorite game of all time?</label>
-                <input type="text" name="GOAT">
+                    <label for="gamer">Do you consider yourself a "gamer"?</label>
+                    <input type="checkbox" name="gamer">
 
-                <label for="gameplans">What games are you looking forward to playing this year (old or new)?</label>
-                <textarea id="gameplans" name="gameplans"></textarea>
+                    <label for="GOTY">What's the best game you've played this year?</label>
+                    <input type="text" name="GOTY">
 
-                <button id="submit-button">Submit</button>
+                    <label for="GOAT">What's your favorite game of all time?</label>
+                    <input type="text" name="GOAT">
 
-            </fieldset>
-        </form>
+                    <label for="gameplans">What games are you looking forward to playing this year (old or new)?</label>
+                    <textarea id="gameplans" name="gameplans"></textarea>
+
+                    <button id="submit-button">Submit</button>
+
+                </fieldset>
+
+            </form>
+
+        </div>
 
         <footer>
 
-            <p>This website was created as part of App Academy Open's curriculum.</p>
+            <p>This website was created in March 2024 as part of App Academy Open's curriculum.</p>
 
         </footer>
 

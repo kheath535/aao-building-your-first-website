@@ -2,8 +2,7 @@ body {
     background-color: #354e64;
     color: #dbedff;
     font-family: "Segoe UI", "Liberation Sans", "sans serif";
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 
 header h2 {
@@ -29,4 +28,54 @@ nav a {
 
 nav a:visited {
     color: #dbedff;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content-container {
+    background-color: #52718d;
+    margin: 0 70px 70px 70px;
+    padding: 15px 30px;
+    min-width: 750px;
+}
+
+.paragraph-header {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content-container p,
+#homepage-list {
+    margin-top: 7px;
+}
+
+#homepage-snark {
+    margin-bottom: 5px;
+}
+
+#backlog-img {
+    display: block;
+    margin: 15px auto;
+    width: 460px;
+}
+
+footer {
+    background-color: #52718d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
