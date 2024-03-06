@@ -98,9 +98,15 @@ h1 {
 }
 
 /* rules specific to "My Favs" page */
+/* the list bullets could be done much more elegantly (this doesn't allow lists past 2),
+but I fought with a counter style for an hour and got no results, so for now this works */
+.my-favs-list {
+    list-style-type: "\1F948";
+}
 
-
-
+.my-favs-list > li:first-child {
+    list-style-type: "\1F947";
+}
 
 /* rules specific to "Links" page */
 .p-centered {
