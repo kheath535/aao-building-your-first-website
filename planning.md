@@ -19,7 +19,7 @@ Home page:
     -HTML form with a minimum of:
         -1 fieldset
         -3 inputs
-            -2 text ["What's your favorite game?" and "What's your least favorite game?"]
+            -2 text ["What's your favorite game you've played this year?" and "What's your favorite game of all time?"]
             -1 checkbox ["Would you call yourself a 'gamer'?"]
         -1 textarea ["What games are you looking forward to playing this year?"]
         -Appropriate labels for the above

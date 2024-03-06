@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Kat's Game Clearing - Your Favorite Games</title>
+
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- source for favicons: https://favicon.io/emoji-favicons/video-game -->
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h2>Kat's Game Clearing</h2>
+
+            <nav>
+                <a href="homepage.html">Home</a>
+                <a href="my_favs.html">My Favs</a>
+                <a href="your_favs.html">Your Favs</a>
+                <a href="links.html">Links</a>
+            </nav>
+
+        </header>
+
+        <h1>What games have you been playing?</h1>
+
+        <form method="get">
+            <fieldset>
+
+                <label for="gamer">Do you consider yourself a "gamer"?</label>
+                <input type="checkbox" name="gamer">
+
+                <label for="GOTY">What's the best game you've played this year?</label>
+                <input type="text" name="GOTY">
+
+                <label for="GOAT">What's your favorite game of all time?</label>
+                <input type="text" name="GOAT">
+
+                <label for="gameplans">What games are you looking forward to playing this year (old or new)?</label>
+                <textarea id="gameplans" name="gameplans"></textarea>
+
+                <input type="button" value="Submit" id="submit-button">
+
+            </fieldset>
+        </form>
+
+        <footer>
+
+            <p>This website was created as part of App Academy Open's curriculum.</p>
+
+        </footer>
+
+    </body>
+
+</html>
