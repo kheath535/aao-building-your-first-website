@@ -32,21 +32,21 @@
         <!--Note this form doesn't actually send data anywhere yet, but I wanted to make a nice submission page anyway-->
         <div class="content-container">
 
-            <form method="post" action="form_submitted.html">
+            <form method="post" action="form_submitted.html" id="form-favs">
 
-                <fieldset>
+                <fieldset id="form-favs-fieldset">
 
-                    <label for="gamer">Do you consider yourself a "gamer"?</label>
-                    <input type="checkbox" name="gamer">
+                    <label for="gamer" id="gamer-label">Do you consider yourself a "gamer"?</label>
+                    <input type="checkbox" name="gamer" class="form-favs-input" id="gamer-check">
 
-                    <label for="GOTY">What's the best game you've played this year?</label>
-                    <input type="text" name="GOTY">
+                    <label for="GOTY" id="GOTY-label">What's the best game you've played this year?</label>
+                    <input type="text" name="GOTY" class="form-favs-input" id="GOTY-text">
 
-                    <label for="GOAT">What's your favorite game of all time?</label>
-                    <input type="text" name="GOAT">
+                    <label for="GOAT" id="GOAT-label">What's your favorite game of all time?</label>
+                    <input type="text" name="GOAT" class="form-favs-input" id="GOAT-text">
 
-                    <label for="gameplans">What games are you looking forward to playing this year (old or new)?</label>
-                    <textarea id="gameplans" name="gameplans"></textarea>
+                    <label for="gameplans" id="gameplans-label">What games are you looking forward to playing this year (old or new)?</label>
+                    <textarea name="gameplans" class="form-favs-input" id="gameplans"></textarea>
 
                     <button id="submit-button">Submit</button>
 
