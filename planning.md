@@ -10,8 +10,8 @@ Home page:
     ✓ -Navigation Bar linking to all 4 pages
     ✓ -1 header using H1
     ✓ -6 images displayed 3 wide and 2 down [I would prefer them to be by the text, but the project mandates this...]
-        ✓ -A label for each image [O would also prefer these to be alt text or something non-intrusive, but again, project mandates]
-        -Clicking on the image opens the source of that image in a new window [probably will use Steam links whenever possible, or things like VGChartz for console games]
+        ✓ -A label for each image [I would also prefer these to be alt text or something non-intrusive, but again, project mandates]
+        ✓ -Clicking on the image opens the source of that image in a new window [probably will use Steam links whenever possible, or things like VGChartz for console games]
 
 
 "Your Favorite Games" page:
